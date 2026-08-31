@@ -1,0 +1,166 @@
+## Nutrion and Exercise Journal JSON Schema
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+  	"$id": "https://example.com/product.schema.json",
+	"title": "Nutrition and Exercise Journal",
+	"description": "Daily entries containing food, water and supplements consumed as well as exercises done.",
+	"type": "object",
+	"properties": {
+		"title": { 
+			"description": "Title of the journal", 
+			"type": "string"
+		},
+		"entries": { 
+			"description": "Daily entries in the journal", 
+			"type": "array", "items": { 
+				"type": "object", 
+				"properties": {
+					"date": {
+						"description": "Date of the entry in YYYY-MM-DD format.",
+						"type": "date"
+					},
+					"measurements": {
+						"description": "List of measurements of biometric information such as body weight or waist circumference. Measurements are taken right after waking up before breakfast and drinking water.",
+						"type": "array",
+						"items": {
+							"description": "Measurement entry.",
+							"type": "object",
+							"properties": {
+								"n": {
+									"description": "Name of the measurement",
+									"type": "string"
+								},
+								"q": {
+									"description": "Number of measurement units",
+									"type": "number"
+								},
+								"u": {
+									"description": "Measurement unit",
+									"type": "string"
+								}
+							},
+							"required": ["n", "q", "u"]
+						}
+					},
+					"daily_consumables": {
+						"description": "Separate record of consumed daily dietary supplements and other select items such as water.",
+						"type": "array",
+						"items": {
+							"description": "Supplement and key consumable entry",
+							"type": "object",
+							"properties": {
+								"n": {
+									"description": "Name of the consumable",
+									"type": "string"
+								},
+								"q": {
+									"description": "Number of measurement units",
+									"type": "number"
+								},
+								"u": {
+									"description": "Measurement unit - if not given the unit is metric grams.",
+									"type": "string"
+								}
+							},
+							"required": ["n", "q"]
+						}
+					},
+					"meals": {
+						"description": "Record of meals during the day. Sequence assumes breakfast - lunch - dinner, but not always. Assume there is at least 2 hours of break between meal records.",
+						"type": "array",
+						"items": {
+							"description": "Meal record.",
+							"type": "array",
+							"items": {
+								"description": "A separate food item",
+								"type": "object",
+								"properties": {
+									"type": {
+										"description": "Type of food item. If not provided, the default type is 'ingredient'.",
+										"type": "string"
+									},
+									"method": {
+										"description": "Method of preparation. If not provided, the food is eaten without further processing in the kitchen before eating - example 'bread' without method is eaten as a baked bread, however 'bread' can also be detailed as a dish with its constituent ingredients and 'baked' preparation method. For processed foods eg. yogurt, if method of preparation is not provided assume it is eaten as purchased from the store.",
+										"type": "string"
+									},
+									"ingredients": {
+										"description": "List of ingredients in a prepared dish or food product.",
+										"type": "array",
+										"items": {
+											"type": "object",
+											"properties": {
+												"n": {
+													"description": "Name of the food item",
+													"type": "string"
+												},
+												"q": {
+													"description": "Number of measurement units",
+													"type": "number"
+												},
+												"u": {
+													"description": "Measurement unit - if not given the unit is metric grams.",
+													"type": "string"
+												}
+											}
+										}
+									},
+									"n": {
+										"description": "Name of the food item",
+										"type": "string"
+									},
+									"q": {
+										"description": "Number of measurement units",
+										"type": "number"
+									},
+									"u": {
+										"description": "Measurement unit - if not given the unit is metric grams.",
+										"type": "string"
+									}
+								}
+							}
+						}
+					},
+					"exercises": {
+						"description": "Entries of performed physical exercises during the day.",
+						"type": "array",
+						"items": {
+							"description": "Individual exercise entry.",
+							"type": "object",
+							"properties": {
+								"n": {
+									"description": "Name of the exercise. Ring means gymnastic rings.",
+									"type": "string"
+								},
+								"res": {
+									"description": "Total resistance in kg, or kg equivalent-rated resistance band. Unless specifically noted, resistance bands are stretched to 150% (equivalent of dumbbells half the bands' rated resistance at peak ROM, example: if 'res' is 60 for band, the effective resistance is 30 kg at peak ROM). 0 means bodyweight only.",
+									"type": "number"
+								},
+								"restype": {
+									"description": "Tool of resistance applied. Typically it is either dumbbells, resistance bands or bodyweight.",
+									"type": "string"
+								"rir": {
+									"description": "Reps in reserve before technical failure - indicative of exercise intensity",
+									"type": "number"
+								},
+								"rest": {
+									"description": "Number of seconds of rest between sets.",
+									"type": "number"
+								},
+								"sets": {
+									"description": "Sets with reps. Individual array items are sets, the numbers in the array are the number of reps. For unilateral exercises the rep count is for each side/limb - lowest reps are logged if different.",
+									"type": "array",
+									"items": { "type": "number" }
+								},
+								"comment": {
+									"description": "Commentary to the exercise if relevant.",
+									"type": "string"
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"required":["date","meals"]
+	}
+}
