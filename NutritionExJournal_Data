@@ -1,23 +1,3 @@
-# Nutrition and exercise Journal
-
-## Notes
-
-- The goal of my nutrition in order of importance: general health (most important, always a priority), muscle retention, improve body fat percentage, muscle building
-- Unless specifically noted these ingredients are always measured and listed either raw: vegetables, unprocessed meat, fruit, potatoes 
-- Unless specifically noted these ingredients are always measured and listed either dry: legumes (split pea, lentil, bean, soybean - exception is peanut which is listed as roasted), rice, pasta, bulgur, flour, oatmeal (rolled oat, shredded oat).
-- "Oatmeal", unless otherwise noted, refers strictly to unprocessed and additive-free generic unbranded dry rolled/shredded oats.
-- In case of pre-prepared dishes/ingredients, unless otherwise specified, assume European Union market products.
-- For food energy, macronutrient and micronutrient data follow this priority order (highest priority mentioned first): 1. Manufacturer's nutrition declaration for branded products if the brand is mentioned > 2. Danish Food Composition Databank (Frida) > 3. Finnish Fineli > 4. Peer-reviewed compositional data when unavailable > 5. USDA FoodData Central only if no European equivalent exists.
-- Maximum deviation in measurement accuracy is usually 10% for low-medium calorie foods (vegetables, meat mostly) and 0% for calorically dense foods (starchy staples, fat, nuts). Assume that the journal in honest (no undisclosed snacks).
-- In dairy products unless otherwise noted the percentages mean fat content.
-- "Salt" unless otherwise noted is iodized sea salt. When analyzing sodium content of meals do not imply hidden sodium content in dishes containing only unprocessed ingredients - in these cases the salt present in the dish is explicitly stated. Only add estimated sodium in case there are processed food products present (eg. pickles, condiments, canned products etc.)
-- "Water" is tap water (Budapest XV. district tap water - Water quality indicators as of 2026: {free_active_chlorine: "0.2 mg/L", total_hardness_as_CaO: "133 mg/L as CaO", ammonium: "<0.04 mg/L", nitrate: "6.4 mg/L", nitrite: "<0.03 mg/L", lead: "<0.5 µg/L", arsenic: "1.4 µg/L", calcium: "79 mg/L", magnesium: "22.6 mg/L", electrical_conductivity_20C: "463 µS/cm"}) consumption by number of standardized (0.5 liter capacity) bottles. Actual daily water consumption is usually higher (foods, coffee occasional drinking straight from the tap etc.). This is the absolute baseline, assume that 30% more water is consumed from other sources throughout the day.
-- "Multivitamin" means a pill containing the following: vitamin A (1600 µg), vitamin B1 (2.2 mg), vitamin B2 (2.8 mg), vitamin B3 (32 mg), vitamin B5 (12 mg), vitamin B6 (2.8 mg), vitamin B7 (100 µg), vitamin B9 (400 µg), vitamin B12 (5 µg), vitamin C (160 mg), vitamin D3 (10 µg), vitamin E (24 mg), zinc (8.1 mg), copper (0.99 mg), iodine (163.8 µg), iron (20.2 mg), manganese (0.6 mg), selenium (47.3 µg), green tea extract (14.7 mg), gingko biloba extract (19.6 mg), alpha-lipoic acid (9.8 mg), ground grapeseed (9.8 mg), silybum marianum extract (4.9 mg), coenzyme Q10 (2.8 mg), pinus massioana bark extract (1.96 mg), rosehip extract (1.05 mg), bromelain extract (4.9 mg), black pepper extract (1.96 mg), enzyme complex (1.96 mg). It is this exact product: https://bodyselect.com/hu/multivitamin-90-kapszula
-- "Protein powder" (unless otherwise noted) is 80% whey protein powder drunk with water in shake form, specifically this product (use for amino acid profile): https://bodyselect.com/hu/whey-protein-80-bourbon-vanilia-1-kg
-- First meal is breakfast that is consumed mostly between 6:30 and 7:30 am. The second meal is lunch, which is eaten between 10:00 am and 1:00 pm depending on the timing of breakfast. Typically there is a 4-hour interval between breakfast and lunch. Workouts happen between 4:00 pm and 8:00 pm, most commonly between 5:00 pm and 6:00 pm. Most often dinner is not a meal, just an after-workout protein powder shake, occasionally with some cooked oatmeal or fruit.
-
-
-## JSON Data
 { "title": "Nutrition and Exercise Journal", "entries":
 [
 
