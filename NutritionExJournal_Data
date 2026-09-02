@@ -1,6 +1,120 @@
 { "title": "Nutrition and Exercise Journal", "entries":
 [
 
+{"date": "2026-09-01", 
+	"daily_consumables": 
+	[ {"n":"multivitamin", "u":"pill", "q": 0}, 
+	{"n":"vitamin D3 supplement 3000 IU", "u":"pill", "q": 0},
+	{"n":"Omega-3 supplement, JutaVit, 192mg EPA, 120mg DHA", "u":"pill", "q": 2}, 
+	{"n":"water", "u":"0.5 liter bottle", "q": 5}, 
+	{"n":"robusta coffee", "u":"16g scoop", "q": 2},
+	{"n":"creatine monohydrate", "u":"5g scoop", "q": 1} ],
+
+	"meals": 
+	[
+		[ {"type": "dish", "method": "boiling", "ingredients": [ {"n":"oatmeal", "q": 100}, {"n":"milk 2.8%", "q": 500}, {"n":"salt", "q": 1} ]}  ],
+
+		[ {"type": "dish", "method": "boiling", "ingredients": [  
+			{"n":"chicken breast", "q": 300}, 
+			{"n":"onion", "q": 100}, 
+			{"n":"garlic", "q": 20}, 
+			{"n":"sunflower seed oil", "q": 1, "u":"tbsp"},
+			{"n":"pasta", "q": 125},
+			{"n":"salt", "q": 1} 
+		]},
+
+		{"type": "dish", "method": "frying", "ingredients": [  
+			{"n":"egg, large", "q": 4, "u":"pcs"}, 
+			{"n":"sunflower seed oil", "q": 0.5, "u":"tbsp"},
+			{"n":"salt", "q": 1} 
+		]},
+
+		{"n":"cucumber, brine fermented", "q": 100},
+		{"n":"carrot", "q": 100},
+		{"n":"tomato", "q": 200},
+		{"n":"paprika", "q": 200},
+		{"n":"pumpkin seed", "q": 30},
+		{"n":"olive oil, extra virgin", "q": 1, "u":"tbsp"}
+		],
+
+		[ {"n":"chocolate, After Eight", "q": 17}],
+
+		[ {"n":"banana", "q": 120}, {"n":"plum", "q": 100}, {"n":"protein powder", "q": 40} ]
+
+	],
+	
+	"exercises":
+	[
+		{"n":"ring pull-up", "res":0, "restype":"bodyweight", "rir":0, "rest":90, "sets":[10,6,4,4], "comment":"1s stop at peak ROM, active hang at bottom of ROM, controlled eccentric"},
+		{"n":"RDL", "res":44,"restype":"dumbbell", "rir":2, "rest":120, "sets":[13,11,8,8]},
+		{"n":"ring row", "res":0,"restype":"bodyweight", "rir":0, "rest":90, "sets":[12,8], "comment":"1s stop at peak ROM"},
+		{"n":"bicep curl", "res":35, "restype":"band", "rir":0, "rest":60, "sets":[11,6], "comment":"both arms at the same time, 1s stop at peak ROM"},
+		{"n":"band pull-apart", "res":15, "restype":"band", "rir":0, "rest":60, "sets":[20,13,9], "comment":"controlled eccentric"}
+	]
+},
+
+{"date": "2026-09-01", 
+	"daily_consumables": 
+	[ {"n":"multivitamin", "u":"pill", "q": 1}, 
+	{"n":"vitamin D3 supplement 3000 IU", "u":"pill", "q": 0},
+	{"n":"Omega-3 supplement, JutaVit, 192mg EPA, 120mg DHA", "u":"pill", "q": 2}, 
+	{"n":"water", "u":"0.5 liter bottle", "q": 5}, 
+	{"n":"robusta coffee", "u":"16g scoop", "q": 2},
+	{"n":"creatine monohydrate", "u":"5g scoop", "q": 1} ],
+
+	"measurements":[
+		{"n":"bodyweight","q":94.7,"u":"kg"},
+		{"n":"waist circumference, largest (measuring tape crosses the navel)","q":98,"u":"cm"},
+		{"n":"waist circumference, narrowest (measuring tape 5 cm above navel)","q":89,"u":"cm"},
+		{"n":"thigh circumference, largest","q":61,"u":"cm"},
+		{"n":"skin fold pinch caliper, pectoral (between nipple and armpit)","q":4,"u":"mm"},
+		{"n":"skin fold pinch caliper, abdomen (2cm to the right of the navel, vertical)","q":18,"u":"mm"},
+		{"n":"skin fold pinch caliper, thigh (between hip crease and knee, vertical)","q":10,"u":"mm"},
+		{"n":"skin fold pinch caliper, side torso (under armpit)","q":8,"u":"mm"},
+		{"n":"skin fold pinch caliper, tricep (near armpit)","q":4,"u":"mm"},
+		{"n":"skin fold pinch caliper, love handle (2 cm above hip bone)","q":24,"u":"mm"},
+		{"n":"body fat percentage, approximate","q":15,"u":"%"}
+	],
+
+	"meals": 
+	[
+		[ {"type": "dish", "method": "boiling", "ingredients": [ {"n":"oatmeal", "q": 100}, {"n":"milk 2.8%", "q": 500}, {"n":"salt", "q": 1} ]}  ],
+
+		[ {"type": "dish", "method": "boiling", "ingredients": [  
+			{"n":"green lentil", "q": 150}, 
+			{"n":"carrot", "q": 100}, 
+			{"n":"olive oil, extra virgin", "q": 1, "u":"tbsp"},
+			{"n":"tomato paste, 29% concentrated", "q": 70},
+			{"n":"salt", "q": 1} 
+		]},
+
+		{"type": "dish", "method": "frying", "ingredients": [  
+			{"n":"egg, large", "q": 4, "u":"pcs"}, 
+			{"n":"sunflower seed oil", "q": 0.5, "u":"tbsp"},
+			{"n":"salt", "q": 1} 
+		]},
+
+		{"n":"cucumber, brine fermented", "q": 100},
+		{"n":"carrot", "q": 100},
+		{"n":"paprika", "q": 150}
+		],
+
+		[ {"n":"chocolate, After Eight", "q": 17}],
+
+		[ {"n":"banana", "q": 120}, {"n":"plum", "q": 100}, {"n":"protein powder", "q": 40} ]
+
+	],
+	
+	"exercises":
+	[
+		{"n":"ring pull-up", "res":0, "restype":"bodyweight", "rir":0, "rest":90, "sets":[10,6,4,4], "comment":"1s stop at peak ROM, active hang at bottom of ROM, controlled eccentric"},
+		{"n":"RDL", "res":44,"restype":"dumbbell", "rir":2, "rest":120, "sets":[13,11,8,8]},
+		{"n":"ring row", "res":0,"restype":"bodyweight", "rir":0, "rest":90, "sets":[12,8], "comment":"1s stop at peak ROM"},
+		{"n":"bicep curl", "res":35, "restype":"band", "rir":0, "rest":60, "sets":[11,6], "comment":"both arms at the same time, 1s stop at peak ROM"},
+		{"n":"band pull-apart", "res":15, "restype":"band", "rir":0, "rest":60, "sets":[20,13,9], "comment":"controlled eccentric"}
+	]
+},
+
 {"date": "2026-08-31", 
 	"daily_consumables": 
 	[ {"n":"multivitamin", "u":"pill", "q": 0}, 
@@ -33,16 +147,18 @@
 		{"n":"paprika", "q": 150}
 		],
 
-		[ {"n":"banana", "q": 100}, {"n":"protein powder", "q": 40} ]
+		[ {"n":"chocolate, After Eight", "q": 17}],
+
+		[ {"n":"peach", "q": 130}, {"n":"plum", "q": 50}, {"n":"protein powder", "q": 40} ]
 
 	],
 	
 	"exercises":
 	[
-		{"n":"goblet squat", "res":27, "restype":"dumbbell", "rir":2, "rest":90, "sets":[17,13,12,10]},
-		{"n":"ring push-up", "res":0,"restype":"bodyweight", "rir":0, "rest":90, "sets":[15,10,9,6], "comment":"feet elevated to ring level"},
-		{"n":"triceps extension", "res":45,"restype":"band", "rir":0, "rest":60, "sets":[5,4]},
-		{"n":"controlled step-down", "res":0, "restype":"bodyweight", "rir":1, "rest":60, "sets":[17,15], "comment":"toe touches floor with straight back leg, 26 cm elevation"}
+		{"n":"goblet squat", "res":32, "restype":"dumbbell", "rir":2, "rest":90, "sets":[15,12,10,8]},
+		{"n":"ring push-up", "res":0,"restype":"bodyweight", "rir":0, "rest":90, "sets":[17,10,9,6], "comment":"feet elevated to ring level"},
+		{"n":"triceps extension", "res":45,"restype":"band", "rir":0, "rest":60, "sets":[7,3]},
+		{"n":"controlled step-down", "res":5, "restype":"dumbbell", "rir":1, "rest":60, "sets":[16,15], "comment":"toe touches floor with straight back leg, 26 cm elevation"}
 	]
 },
 
@@ -90,7 +206,7 @@
 	"exercises":
 	[
 		{"n":"tibialis wall raise", "res":0, "restype":"bodyweight", "rir":1, "rest":60, "sets":[20,20,17,15], "comment":"1s stop at peak ROM"},
-		{"n":"serratus push-up","res":0,"restype":"bodyweight","rir":1,"rest":60,"sets":[20,14,10,10]}
+		{"n":"serratus push-up","res":0,"restype":"bodyweight","rir":1,"rest":60,"sets":[20,14,10,10]},
 		{"n":"band resisted knee tuck", "res":35,"restype":"band", "rir":1, "rest":60, "sets":[8,7]},
 		{"n":"serratus wall slide", "res":0, "restype":"bodyweight", "rir":2, "rest":60, "sets":[20,20]},
 		{"n":"jump rope", "res":0, "restype":"bodyweight", "rir":0, "rest":60, "sets":[10], "comment":"130 bpm sustained heart rate, no actual rope, sets mean minutes jumping without rest"}
@@ -179,7 +295,7 @@
 	"exercises":
 	[
 		{"n":"ring pull-up", "res":0, "restype":"bodyweight", "rir":1, "rest":90, "sets":[8,6,5,5], "comment":"1s stop at peak ROM, active hang at bottom of ROM, controlled eccentric"},
-		{"n":"Peterson step-up","res":0,"restype":"bodyweight","rir":2,"rest":60,"sets":[13,11,11,9],"comment":"no momentum, 11 cm elevation"}
+		{"n":"Peterson step-up","res":0,"restype":"bodyweight","rir":2,"rest":60,"sets":[13,11,11,9],"comment":"no momentum, 11 cm elevation"},
 		{"n":"straight-arm lat pulldown", "res":45,"restype":"band", "rir":1, "rest":60, "sets":[19,10,8], "comment":"close grip, 1s stop at peak ROM, controlled eccentric"},
 		{"n":"bicep curl", "res":25, "restype":"band", "rir":0, "rest":60, "sets":[18,10], "comment":"both arms at the same time, 1s stop at peak ROM"},
 		{"n":"face pull", "res":10, "restype":"band", "rir":0, "rest":60, "sets":[14,10], "comment":"1s stop at peak ROM"}
@@ -273,7 +389,7 @@
 		],
 
 		[ {"n":"chickpea, air roasted", "q": 50},
-		{"n":"grape", "q": 50}
+		{"n":"grape", "q": 50},
 		{"n":"ayran 1.7%", "q":250, "u":"ml"}
 		],
 
@@ -319,7 +435,7 @@
 	[
 		[ {"n":"crackerbread, wholegrain", "q": 30},
 		{"n":"ajvar", "q": 200},
-		{"n":"halva", "q": 50},
+		{"n":"halva", "q": 50}
 		],
 
 		[ {"n":"bread", "q": 100},
@@ -373,7 +489,7 @@
 		{"n":"cottage cheese 7.5%", "q": 250},
 		{"n":"yogurt 2%", "q": 100},
 		{"n":"ajvar", "q": 200},
-		{"n":"almond", "q": 10},
+		{"n":"almond", "q": 10}
 		],
 
 		[ {"n":"chickpea, air roasted", "q": 30},
@@ -400,7 +516,7 @@
 		[ {"n":"olive, green marinated", "q":100},
 		{"n":"grape", "q": 100},
 		{"n":"wine, dry red", "q": 500, "u":"ml"}
-		],
+		]
 
 	],
 	
@@ -446,8 +562,7 @@
 		]},
 
 		{"n":"bread", "q": 100},
-		{"n":"ouzo", "q": 50, "u":"ml"}
-		],
+		{"n":"ouzo", "q": 50, "u":"ml"},
 
 		{"type": "dish", "method": "frying", "ingredients": [  
 			{"n":"potato", "q": 100}, 
@@ -460,7 +575,7 @@
 		{"n":"olive, green marinated", "q":100},
 		{"n":"almond", "q": 30},
 		{"n":"wine, dry red", "q": 250, "u":"ml"}
-		],
+		]
 
 	],
 	
@@ -525,7 +640,7 @@
 		{"n":"cheese, gouda 24%", "q": 50},
 		{"n":"cold cut, chicken 1.5% fat", "q": 100},
 		{"n":"eggplant salad", "q": 100},
-		{"n":"carrot", "q": 100},
+		{"n":"carrot", "q": 100}
 		],
 
 		[ {"n":"banana", "q": 100},
@@ -689,7 +804,7 @@
 			{"n":"butter 82%", "q": 17},
 			{"n":"sugar", "q": 36},
 			{"n":"salt", "q": 1} 
-		]},
+		]}
 		],
 
 		[ 
@@ -736,7 +851,7 @@
 		{"n":"nori", "q": 10},
 		{"n":"avocado", "q": 30},
 		{"n":"salmon", "q": 100},
-		{"n":"beer, non-alcoholic 0% ABV", "q": 1490, "u":"ml"},
+		{"n":"beer, non-alcoholic 0% ABV", "q": 1490, "u":"ml"}
 		],
 
 		[ {"type": "dish", "method": "frying", "ingredients": [  
@@ -799,7 +914,7 @@
 	"exercises":
 	[
 		{"n":"ring pull-up", "res":0, "restype":"bodyweight", "rir":1, "rest":90, "sets":[9,5,5,4], "comment":"1s stop at peak ROM, active hang at bottom of ROM, controlled eccentric"},
-		{"n":"Peterson step-up","res":0,"restype":"bodyweight","rir":2,"rest":60,"sets":[13,10,10,9],"comment":"no momentum, 11 cm elevation"}
+		{"n":"Peterson step-up","res":0,"restype":"bodyweight","rir":2,"rest":60,"sets":[13,10,10,9],"comment":"no momentum, 11 cm elevation"},
 		{"n":"ring row", "res":0,"restype":"bodyweight", "rir":1, "rest":90, "sets":[12,7], "comment":"1s stop at peak ROM"},
 		{"n":"bicep curl", "res":25, "restype":"band", "rir":0, "rest":60, "sets":[16,9], "comment":"both arms at the same time, 1s stop at peak ROM"},
 		{"n":"face pull", "res":10, "restype":"band", "rir":0, "rest":60, "sets":[13,9,7], "comment":"1s stop at peak ROM"}
@@ -995,7 +1110,7 @@
 		]},
 
 		{"n":"cucumber, brine fermented", "q": 300},
-		{"n":"peanut", "q": 30},
+		{"n":"peanut", "q": 30}
 		],
 
 		[ {"n":"peanut", "q": 50} ]
@@ -1022,7 +1137,7 @@
 		{"n":"crepe", "q": 100},
 		{"n":"banana", "q": 50},  
 		{"n":"hummus", "q": 100}, 
-		{"n":"carrot", "q": 200}, 
+		{"n":"carrot", "q": 200} 
 		],
 
 		[ {"type": "dish", "method": "boiling", "ingredients": [  
@@ -1032,7 +1147,7 @@
 			{"n":"kidney beans, canned, drained", "q": 200}, 
 			{"n":"sunflower seed oil", "q": 2, "u":"tbsp"},  
 			{"n":"salt", "q": 1} 
-		]},
+		]}
 		],
 
 		[ {"n":"wine, white", "q": 400, "u":"ml"}, {"n":"beer, non-alcoholic ABV 0%", "q": 1500, "u":"ml"} ]
@@ -1063,7 +1178,7 @@
 			{"n":"maize, canned, drained", "q": 100}, 
 			{"n":"sunflower seed oil", "q": 1, "u":"tbsp"},  
 			{"n":"salt", "q": 1} 
-		]},
+		]}
 		],
 
 		[ {"n":"wine, white", "q": 400, "u":"ml"}, {"n":"beer ABV 5%", "q": 330, "u":"ml"}, {"n":"beer, non-alcoholic ABV 0%", "q": 1000, "u":"ml"} ]
@@ -1249,7 +1364,7 @@
 		{"n":"salt", "q": 2}
 		],
 
-		[ {"type": "dish", "method": "boiling", "ingredients": [  {"n":"peach", "q": 300}, {"n":"sugar", "q": 20} ]}, ],
+		[ {"type": "dish", "method": "boiling", "ingredients": [  {"n":"peach", "q": 300}, {"n":"sugar", "q": 20} ]} ],
 
 		[ {"n":"protein powder", "q": 40},  {"n":"banana", "q": 200}, {"n":"apple", "q": 130} ]
 
