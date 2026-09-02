@@ -108,6 +108,7 @@
 								"restype": {
 									"description": "Tool of resistance applied. Typically it is either dumbbells, resistance bands or bodyweight.",
 									"type": "string"
+								},
 								"rir": {
 									"description": "Reps in reserve before technical failure - indicative of exercise intensity",
 									"type": "number"
