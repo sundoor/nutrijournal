@@ -1,0 +1,674 @@
+{
+    "title": "Canonical Food Database",
+    "entries": [
+        {
+            "n": "oatmeal",
+            "aliases": [
+                "rolled oats, oat flakes"
+            ],
+            "measured": "dry",
+            "energy": 366,
+            "carbohydrates": 58.3,
+            "fat": 6.9,
+            "protein": 12.9,
+            "ethanol": 0.0
+        },
+        {
+            "n": "protein powder",
+            "aliases": [
+                "whey protein",
+                "whey protein concentrate"
+            ],
+            "measured": "dry",
+            "energy": 408,
+            "carbohydrates": 5.5,
+            "fat": 6.8,
+            "protein": 80.0,
+            "ethanol": 0.0
+        },
+        {
+            "n": "bell pepper",
+            "aliases": [],
+            "measured": "raw",
+            "energy": 31,
+            "carbohydrates": 5.9,
+            "fat": 0.1,
+            "protein": 0.9,
+            "ethanol": 0.0
+        },
+        {
+            "n": "tomato",
+            "aliases": [],
+            "measured": "raw",
+            "energy": 21,
+            "carbohydrates": 3.3,
+            "fat": 0.2,
+            "protein": 0.8,
+            "ethanol": 0.0
+        },
+        {
+            "n": "mushroom",
+            "aliases": [
+                "button mushroom",
+                "champignon"
+            ],
+            "measured": "raw",
+            "energy": 23,
+            "carbohydrates": 3.4,
+            "fat": 0.1,
+            "protein": 1.6,
+            "ethanol": 0.0
+        },
+        {
+            "n": "butternut squash",
+            "aliases": [
+                "pumpkin"
+            ],
+            "measured": "raw",
+            "energy": 32,
+            "carbohydrates": 5.8,
+            "fat": 0.2,
+            "protein": 0.8,
+            "ethanol": 0.0
+        },
+        {
+            "n": "sunflower seed oil",
+            "aliases": [
+                "sunflower oil"
+            ],
+            "measured": "as sold",
+            "energy": 900,
+            "carbohydrates": 0.0,
+            "fat": 100.0,
+            "protein": 0.0,
+            "ethanol": 0.0
+        },
+        {
+            "n": "cottage cheese 0%",
+            "aliases": [],
+            "measured": "as sold",
+            "energy": 76,
+            "carbohydrates": 2.7,
+            "fat": 1.2,
+            "protein": 13.6,
+            "ethanol": 0.0
+        },
+        {
+            "n": "carrot",
+            "aliases": [],
+            "measured": "raw",
+            "energy": 36,
+            "carbohydrates": 6.0,
+            "fat": 0.4,
+            "protein": 0.7,
+            "ethanol": 0.0
+        },
+        {
+            "n": "cornstarch",
+            "aliases": [],
+            "measured": "dry",
+            "energy": 361,
+            "carbohydrates": 88.3,
+            "fat": 0.6,
+            "protein": 0.4,
+            "ethanol": 0.0
+        },
+        {
+            "n": "banana",
+            "aliases": [],
+            "measured": "raw",
+            "energy": 93,
+            "carbohydrates": 21.0,
+            "fat": 0.2,
+            "protein": 1.1,
+            "ethanol": 0.0
+        },
+        {
+            "n": "milk 1.5%",
+            "aliases": [
+                "milk"
+            ],
+            "measured": "as sold",
+            "energy": 48,
+            "carbohydrates": 4.6,
+            "fat": 1.6,
+            "protein": 3.5,
+            "ethanol": 0.0
+        },
+        {
+            "n": "sour cream 20%",
+            "measured": "as sold",
+            "aliases": [
+                "sour cream"
+            ],
+            "energy": 192,
+            "carbohydrates": 2.9,
+            "fat": 18.6,
+            "protein": 2.8,
+            "ethanol": 0.0
+        },
+        {
+            "n": "cucumber",
+            "aliases": [
+                "gherkin"
+            ],
+            "measured": "raw",
+            "energy": 12,
+            "carbohydrates": 1.8,
+            "fat": 0.0,
+            "protein": 0.7,
+            "ethanol": 0.0
+        },
+        {
+            "n": "beer ABV 5%",
+            "aliases": [
+                "beer"
+            ],
+            "measured": "as sold",
+            "energy": 36,
+            "carbohydrates": 2.3,
+            "fat": 0.0,
+            "protein": 0.4,
+            "ethanol": 3.6
+        },
+        {
+            "n": "chicken breast",
+            "aliases": [],
+            "measured": "raw",
+            "energy": 110,
+            "carbohydrates": 1.0,
+            "fat": 2.7,
+            "protein": 20.3,
+            "ethanol": 0.0
+        },
+        {
+            "n": "apple",
+            "aliases": [],
+            "measured": "raw",
+            "energy": 55,
+            "carbohydrates": 12.1,
+            "fat": 0.2,
+            "protein": 0.3,
+            "ethanol": 0.0
+        },
+        {
+            "n": "pasta",
+            "aliases": [],
+            "measured": "dry",
+            "energy": 361,
+            "carbohydrates": 72.4,
+            "fat": 1.8,
+            "protein": 12.3,
+            "ethanol": 0.0
+        },
+        {
+            "n": "olive oil, extra virgin",
+            "aliases": [
+                "olive oil"
+            ],
+            "measured": "as sold",
+            "energy": 900,
+            "carbohydrates": 0.0,
+            "fat": 100.0,
+            "protein": 0.0,
+            "ethanol": 0.0
+        },
+        {
+            "n": "rice",
+            "aliases": [],
+            "measured": "dry",
+            "energy": 354,
+            "carbohydrates": 77.1,
+            "fat": 1.2,
+            "protein": 8.4,
+            "ethanol": 0.0
+        },
+        {
+            "n": "egg, large",
+            "aliases": [
+                "egg"
+            ],
+            "measured": "raw",
+            "energy": 138,
+            "carbohydrates": 1.0,
+            "fat": 9.5,
+            "protein": 12.3,
+            "ethanol": 0.0
+        },
+        {
+            "n": "beer, non-alcoholic ABV 0%",
+            "aliases": [
+                "beer ABV 0%"
+            ],
+            "measured": "as sold",
+            "energy": 17,
+            "carbohydrates": 3.6,
+            "fat": 0.0,
+            "protein": 0.3,
+            "ethanol": 0.1
+        },
+        {
+            "n": "sugar",
+            "aliases": [],
+            "measured": "dry",
+            "energy": 400,
+            "carbohydrates": 99.9,
+            "fat": 0.0,
+            "protein": 0.0,
+            "ethanol": 0.0
+        },
+        {
+            "n": "bread, white",
+            "aliases": [
+                "bread"
+            ],
+            "measured": "as sold",
+            "energy": 249,
+            "carbohydrates": 46.4,
+            "fat": 2.8,
+            "protein": 7.6,
+            "ethanol": 0.0
+        },
+        {
+            "n": "milk 2.8%",
+            "aliases": [],
+            "measured": "as sold",
+            "energy": 57,
+            "carbohydrates": 4.4,
+            "fat": 2.8,
+            "protein": 3.4,
+            "ethanol": 0.0
+        },
+        {
+            "n": "almond",
+            "aliases": [],
+            "measured": "dry",
+            "energy": 606,
+            "carbohydrates": 7.8,
+            "fat": 52.1,
+            "protein": 21.2,
+            "ethanol": 0.0
+        },
+        {
+            "n": "flour, white",
+            "aliases": [
+                "flour"
+            ],
+            "measured": "dry",
+            "energy": 343,
+            "carbohydrates": 69.7,
+            "fat": 1.5,
+            "protein": 9.7,
+            "ethanol": 0.0
+        },
+        {
+            "n": "yogurt 2.7%",
+            "aliases": [],
+            "measured": "as sold",
+            "energy": 62,
+            "carbohydrates": 2.8,
+            "fat": 3.6,
+            "protein": 3.8,
+            "ethanol": 0.0
+        },
+        {
+            "n": "cucumber, brine fermented",
+            "aliases": [
+                "pickled cucumber",
+                "cucumber, pickled"
+            ],
+            "measured": "as sold",
+            "energy": 12,
+            "carbohydrates": 1.8,
+            "fat": 0.0,
+            "protein": 0.7,
+            "ethanol": 0.0
+        },
+        {
+            "n": "split pea",
+            "aliases": [],
+            "measured": "dry",
+            "energy": 347,
+            "carbohydrates": 56.4,
+            "fat": 2.1,
+            "protein": 22.0,
+            "ethanol": 0.0
+        },
+        {
+            "n": "peanut",
+            "aliases": [],
+            "measured": "dry",
+            "energy": 596,
+            "carbohydrates": 8.5,
+            "fat": 49.2,
+            "protein": 25.8,
+            "ethanol": 0.0
+        },
+        {
+            "n": "sunflower seed",
+            "aliases": [],
+            "measured": "dry",
+            "energy": 620,
+            "carbohydrates": 3.1,
+            "fat": 54.4,
+            "protein": 24.7,
+            "ethanol": 0.0
+        },
+        {
+            "n": "chia seed",
+            "aliases": [],
+            "measured": "dry",
+            "energy": 462,
+            "carbohydrates": 0.0,
+            "fat": 34.2,
+            "protein": 18.2,
+            "ethanol": 0.0
+        },
+        {
+            "n": "walnut",
+            "aliases": [],
+            "measured": "dry",
+            "energy": 693,
+            "carbohydrates": 10.3,
+            "fat": 64.6,
+            "protein": 14.1,
+            "ethanol": 0.0
+        },
+        {
+            "n": "sesame seed",
+            "aliases": [],
+            "measured": "dry",
+            "energy": 605,
+            "carbohydrates": 4.0,
+            "fat": 53.8,
+            "protein": 19.6,
+            "ethanol": 0.0
+        },
+        {
+            "n": "onion",
+            "aliases": [],
+            "measured": "raw",
+            "energy": 43,
+            "carbohydrates": 8.4,
+            "fat": 0.1,
+            "protein": 1.2,
+            "ethanol": 0.0
+        },
+        {
+            "n": "linseed",
+            "aliases": [
+                "flax seed"
+            ],
+            "measured": "dry",
+            "energy": 464,
+            "carbohydrates": 5.5,
+            "fat": 31.0,
+            "protein": 25.5,
+            "ethanol": 0.0
+        },
+        {
+            "n": "garlic",
+            "aliases": [],
+            "measured": "raw",
+            "energy": 101,
+            "carbohydrates": 16.4,
+            "fat": 0.5,
+            "protein": 6.6,
+            "ethanol": 0.0
+        },
+        {
+            "n": "yogurt 1.5%",
+            "aliases": [],
+            "measured": "as sold",
+            "energy": 48,
+            "carbohydrates": 4.5,
+            "fat": 1.5,
+            "protein": 4.1,
+            "ethanol": 0.0
+        },
+        {
+            "n": "cabbage",
+            "aliases": [],
+            "measured": "raw",
+            "energy": 32,
+            "carbohydrates": 5.1,
+            "fat": 0.2,
+            "protein": 1.2,
+            "ethanol": 0.0
+        },
+        {
+            "n": "chocolate",
+            "aliases": [],
+            "measured": "as sold",
+            "energy": 545,
+            "carbohydrates": 57.8,
+            "fat": 31.7,
+            "protein": 7.1,
+            "ethanol": 0.0
+        },
+        {
+            "n": "chocolate, After Eight",
+            "aliases": [],
+            "measured": "as sold",
+            "energy": 426,
+            "carbohydrates": 73.5,
+            "fat": 12.9,
+            "protein": 2.8,
+            "ethanol": 0.0
+        },
+        {
+            "n": "peach",
+            "aliases": [],
+            "measured": "raw",
+            "energy": 42,
+            "carbohydrates": 8.5,
+            "fat": 0.0,
+            "protein": 0.7,
+            "ethanol": 0.0
+        },
+        {
+            "n": "yogurt 3%",
+            "aliases": [],
+            "measured": "as sold",
+            "energy": 62,
+            "carbohydrates": 2.8,
+            "fat": 3.6,
+            "protein": 3.8,
+            "ethanol": 0.0
+        },
+        {
+            "n": "iceberg lettuce",
+            "aliases": [],
+            "measured": "raw",
+            "energy": 16,
+            "carbohydrates": 2.4,
+            "fat": 0.1,
+            "protein": 0.8,
+            "ethanol": 0.0
+        },
+        {
+            "n": "plum",
+            "aliases": [],
+            "measured": "raw",
+            "energy": 46,
+            "carbohydrates": 10.2,
+            "fat": 0.0,
+            "protein": 0.3,
+            "ethanol": 0.0
+        },
+        {
+            "n": "butter 82%",
+            "aliases": [
+                "butter"
+            ],
+            "measured": "as sold",
+            "energy": 743,
+            "carbohydrates": 0.0,
+            "fat": 82.5,
+            "protein": 0.2,
+            "ethanol": 0.0
+        },
+        {
+            "n": "lentil",
+            "aliases": [
+                "red lentil",
+                "green lentil",
+                "black lentil"
+            ],
+            "measured": "dry",
+            "energy": 347,
+            "carbohydrates": 50.5,
+            "fat": 2.5,
+            "protein": 26.2,
+            "ethanol": 0.0
+        },
+        {
+            "n": "chickpea",
+            "aliases": [
+                "garbanzo bean"
+            ],
+            "measured": "dry",
+            "energy": 337,
+            "carbohydrates": 41.4,
+            "fat": 6.0,
+            "protein": 18.8,
+            "ethanol": 0.0
+        },
+        {
+            "n": "tahini",
+            "aliases": [],
+            "measured": "as sold",
+            "energy": 641,
+            "carbohydrates": 0.0,
+            "fat": 58.9,
+            "protein": 20.7,
+            "ethanol": 0.0
+        },
+        {
+            "n": "green pea",
+            "aliases": [],
+            "measured": "raw",
+            "energy": 70,
+            "carbohydrates": 7.0,
+            "fat": 0.7,
+            "protein": 5.9,
+            "ethanol": 0.0
+        },
+        {
+            "n": "bean",
+            "aliases": [
+                "kidney bean"
+            ],
+            "measured": "dry",
+            "energy": 279,
+            "carbohydrates": 31.3,
+            "fat": 1.9,
+            "protein": 19.0,
+            "ethanol": 0.0
+        },
+        {
+            "n": "bean, canned, drained",
+            "aliases": [
+                "bean, canned"
+            ],
+            "measured": "raw",
+            "energy": 95,
+            "carbohydrates": 11.6,
+            "fat": 0.9,
+            "protein": 6.1,
+            "ethanol": 0.0
+        },
+        {
+            "n": "plum",
+            "aliases": [],
+            "measured": "raw",
+            "energy": 46,
+            "carbohydrates": 10.2,
+            "fat": 0.0,
+            "protein": 0.3,
+            "ethanol": 0.0
+        },
+        {
+            "n": "passata",
+            "aliases": [
+                "tomato sauce",
+                "tomato puree"
+            ],
+            "measured": "as sold",
+            "energy": 43,
+            "carbohydrates": 8.6,
+            "fat": 0.2,
+            "protein": 1.6,
+            "ethanol": 0.0
+        },
+        {
+            "n": "cheese, gouda",
+            "aliases": [
+                "cheese, gouda 24%"
+            ],
+            "measured": "as sold",
+            "energy": 335,
+            "carbohydrates": 1.4,
+            "fat": 25.7,
+            "protein": 24.7,
+            "ethanol": 0.0
+        },
+        {
+            "n": "cheese, trappista",
+            "aliases": [
+                "cheese, trappista 26%"
+            ],
+            "measured": "as sold",
+            "energy": 335,
+            "carbohydrates": 1.4,
+            "fat": 25.7,
+            "protein": 24.7,
+            "ethanol": 0.0
+        },
+        {
+            "n": "cheese, edam",
+            "aliases": [
+                "cheese, edam 26%"
+            ],
+            "measured": "as sold",
+            "energy": 335,
+            "carbohydrates": 1.4,
+            "fat": 25.7,
+            "protein": 24.7,
+            "ethanol": 0.0
+        },
+        {
+            "n": "ice cream",
+            "aliases": [
+                "ice cream 14%"
+            ],
+            "measured": "as sold",
+            "energy": 190,
+            "carbohydrates": 21.9,
+            "fat": 10.0,
+            "protein": 2.9,
+            "ethanol": 0.0
+        },
+        {
+            "n": "wine",
+            "aliases": ["wine ABV 13%"],
+            "measured": "as sold",
+            "energy": 85,
+            "carbohydrates": 2.6,
+            "fat": 0.0,
+            "protein": 0.0,
+            "ethanol": 10.6
+        },
+        {
+            "n": "potato",
+            "aliases": [],
+            "measured": "raw",
+            "energy": 77,
+            "carbohydrates": 15.9,
+            "fat": 0.3,
+            "protein": 2.0,
+            "ethanol": 0.0
+        }
+    ],
+    "data_basis": "Per 100 g; energy kcal; carbohydrates, fat, protein and ethanol g."
+}
